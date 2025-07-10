@@ -1,0 +1,13 @@
+/* Always use CamelCase for style names as its imported as a js object - meaning bem is invalid */
+.card {
+  padding: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #00bcff;
+  color: #ffffff;
+  border: 1px solid #ccc;
+}
+.card:hover {
+  background-color: #00a6f4; /* Example new background color on hover */
+  color: #ffffff; /* Example new text color on hover */
+}
